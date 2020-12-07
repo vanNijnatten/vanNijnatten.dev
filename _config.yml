@@ -21,18 +21,21 @@
 title: vanNijnatten.dev
 email: website@vanNijnatten.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vannijnatten.dev/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: J_vanNijnatten
 github_username:  vanNijnatten
 
 # Build settings
-theme: minima
+# Removed gem based theme to use a regular theme
+# See https://www.youtube.com/watch?v=8IgNO1HgCrk
+# theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
