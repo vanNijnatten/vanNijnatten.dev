@@ -7,4 +7,6 @@ order: 1
 
 <img src="/assets/van-nijnatten-logo.svg" class="about-logo" />
 
+Hi there,
+
 My name is Jos, and I will write some about page later on.

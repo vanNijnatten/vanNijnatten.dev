@@ -1,7 +1,7 @@
 ---
 layout: home
 hiddentitle: Home
-list_title: Current News
+list_title: " "
 link_title: "All news"
 link_url: "/all-news/"
 ---
