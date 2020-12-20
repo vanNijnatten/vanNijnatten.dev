@@ -25,11 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   A dude doing a bioinformatics PhD in the Netherlands and Australia, and writing about it.
 show_excerpts: false
 show_news_excerpts: true
+show_projects_excerpts: false
 excerpt_separator: <!--more-->
 collections:
   news:
     output: true
     permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
   publications:
     output: false
 #  Write an awesome description for your new site here. You can edit this

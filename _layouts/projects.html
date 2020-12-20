@@ -15,26 +15,22 @@ layout: default
 
   {{ content }}
 
-  {%- if site.news.size > 0 -%}
+  {%- if site.projects.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | escape }}</h2>
     <ul class="post-list">
-      {%- for news_post in site.news reversed limit:3 -%}
+      {%- for project in site.projects reversed -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ news_post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ news_post.url | relative_url }}">
-            {{ news_post.title | escape }}
+          <a class="post-link" href="{{ project.url | relative_url }}">
+            {{ project.title | escape }}
+            <span class="post-meta">({{ project.date | date: "%Y" }})</span>
           </a>
         </h3>
-        {%- if site.show_news_excerpts -%}
-          {{ news_post.excerpt }}
+        {%- if site.show_projects_excerpts -%}
+          {{ project.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
-    {%- if site.news.size > 3 -%}
-      <a href="{{ page.link_url }}">{{ page.link_title }}</a>
-    {%- endif -%}
   {%- endif -%}
 </div>
