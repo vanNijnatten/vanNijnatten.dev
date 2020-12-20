@@ -14,11 +14,11 @@ layout: default
   {%- endif -%}
 
   {{ content }}
-
+  
   {%- if site.news.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | escape }}</h2>
     <ul class="post-list">
-      {%- for news_post in site.news reversed limit:3 -%}
+      {%- for news_post in site.news reversed -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ news_post.date | date: date_format }}</span>
@@ -33,20 +33,6 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
-    {%- unless page.url contains "all-news" -%}
-      <a href="/all-news/">All news.</a>
-    {%- endunless-%}
   {%- endif -%}
+
 </div>
-
-
-{%- for item in site.collections -%}
-  {{ item.label }}: {{ item.output }}<br \>
-  {%- for file in item.docs -%}
-    - {{file.title}}<br \>
-    {%- if item.label contains "news" -%}
-      >{{ file.url }}<
-      <div style="border:1px solid red;">{ {file} }</div>
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
