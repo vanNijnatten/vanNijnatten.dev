@@ -1,5 +1,5 @@
 ---
-layout: blog-list
+layout: blog
 title: Blog
 permalink: /blog/
 ---
