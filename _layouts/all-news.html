@@ -15,20 +15,20 @@ layout: default
   
   {{ content }}
   
-  {%- if site.posts.size > 0 -%}
+  {%- if site.news.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | escape }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for news_post in site.news -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ news_post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
+          <a class="post-link" href="{{ news_post.url | relative_url }}">
+            {{ news_post.title | escape }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ news_post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "New Site!"
+date:   2020-12-07 17:00:00 +0100
+---
+
+The first bit of text.
+<!--more-->
