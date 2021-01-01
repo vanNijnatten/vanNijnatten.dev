@@ -10,6 +10,18 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+      {%- if page.categories.size > 0 -%}
+        <span class="post-categories">
+          {%- if page.categories.size == 1 -%}
+            Category: 
+          {%- else -%}
+            Categories: 
+          {%- endif -%}
+          {%- for category in page.categories -%}
+            <span class="post-category">{{ category }}</span>
+          {%- endfor -%}
+        </span>
+      {%- endif -%}
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>
@@ -18,6 +30,21 @@ layout: default
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.tags.size > 0 -%}
+    <span class="post-tags">
+      <strong>
+        {%- if page.categories.size == 1 -%}
+          Tag: 
+        {%- else -%}
+          Tags: 
+        {%- endif -%}
+      </strong>
+      {%- for tag in page.tags -%}
+        <span class="post-tag">{{ tag }}</span>
+      {%- endfor -%}
+    </span>
+  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

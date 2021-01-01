@@ -262,3 +262,35 @@
   float:left;
   margin:-7px 15px 15px -7px;
 }
+
+/**
+ * Post categories
+ **/
+.post-categories {
+  &:before {
+    content:"\a";
+    white-space: pre;
+  }
+
+  .post-category {
+    &:first-child:before {
+      content:" ";
+    }
+    & ~ .post-category:before {
+      content:", ";
+    }
+  }
+}
+
+/**
+ * Post tags
+ **/
+.post-tags {
+  .post-tag {
+    font-variant: italic;
+
+    &:before {
+      content:" #";
+    }
+  }
+}
