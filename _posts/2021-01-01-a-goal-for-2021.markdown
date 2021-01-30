@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "A goal for 2021"
+date:   2021-01-01 22:15:00 +0100
+categories: personal journal
+tags:   2020 nye
+---
+The year 2020 will end up in the history books as the year that SARS-COVID-19 struck. For me as well. But so much more has happened in the past year, even though I forgot most of it already.
+We all hope 2021 will be a better year. On top of that, I too have new years resolutions. My goals are to improve oneself, just like most people.<!--more-->
+
+One of my goals is to write some kind of journal club blog post once month ore more frequent. And this is why I am writing on this webpage. I will try to capture the essence of a research paper and write a relatively short review on this website. Baby steps, nothing more, to increase my knowledge in my field of research.
+
+

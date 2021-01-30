@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Illumina sequencing - An overview"
+date:   2021-01-31 23:45:00 +0100
+categories: technial-club
+tags:   technique
+---
+
+
+
+
+
+
+
