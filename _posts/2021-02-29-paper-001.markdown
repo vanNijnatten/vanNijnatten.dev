@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Illumina sequencing - An overview"
+date:   2021-02-29 23:45:00 +0100
+categories: technial-club
+tags:   technique
+---
+
+**Outline**
+Overview of the techniques
+- Wet workflow
+- Sequencing
+- Bioinformatics workflow
+- Applications
+  - RNA-Seq
+  - Small-RNA-Seq
+  - CHiP-Se
+  - 16S
+
+
+**Notes**
+- GTCGTC <- barcode
+- illumina thing is an adapter
+  - Left and right adapter
+  - barcode is in left adapter
+- q(uantaitative)rna sequencing nextflex kit
+- 10 bp umi
+
+
+
+**References**
+[Illumina Sequencing by Synthesis](https://www.youtube.com/watch?v=fCd6B5HRaZ8)
+[Illumina Sequencing Technology](https://www.youtube.com/watch?v=womKfikWlxM)
+[Next-Generation Sequencing: A Review of Technologies and Tools for Wound Microbiome Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281878/)
+[Direct Comparisons of Illumina vs. Roche 454 Sequencing Technologies on the Same Microbial Community DNA Sample](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0030087)
+[Massively parallel multiplex DNA sequencing for specimen identification using an Illumina MiSeq platform](https://www.nature.com/articles/srep09687)
+[Impact of three Illumina library construction methods on GC bias and HLA genotype calling](https://www.sciencedirect.com/science/article/pii/S0198885914005163?casa_token=keGJ-N2i4RoAAAAA:Gqy423QgfY7P_Znr1rLLrZNXasdoEHj8S5MV87utZsu20iAmYQnYMYkjLXrJRg4lwXSQkFA-fUw)
+[Next-generation Sequencing and Sequence Data Analysis](https://web-b-ebscohost-com.proxy-ub.rug.nl/ehost/ebookviewer/ebook/bmxlYmtfXzExMDg5OTJfX0FO0?sid=85ce104d-f916-48c0-acee-f3413812b252@pdc-v-sessmgr02&vid=0&format=EB&rid=1)
+or [same book](https://www.sciencedirect.com/science/article/pii/B9780128012383089984)
