@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  # "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Jos van Nijnatten"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Ph.D. candidate using bioinformatics to uncover the genetics and epigenetics of chronic obstructive pulmonary disease."
   location         : "Sydney, Australia"
-  employer         : "University of Technology, Sydney (UTS)"
+  employer         : "University of Technology, Sydney"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=jos+van+nijnatten"
   googlescholar    : "https://scholar.google.com/citations?user=SPgamzIAAAAJ"
   email            :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/jos-van-nijnatten/"
+  linkedin         : "jos-van-nijnatten"
   orcid            : "https://orcid.org/0000-0001-5374-0609"
   pinterest        :
   soundcloud       :
