@@ -5,7 +5,7 @@ permalink: /publication/2022-04-04-High-miR203a-3p-and-miR-375-expression-in-the
 excerpt: ''
 date: 2022-04-04
 venue: 'Scientific Reports'
-paperurl: 'https://doi.org/10.1101/2020.08.31.20169946'
+paperurl: 'https://doi.org/10.1038/s41598-022-09093-0'
 citation: 'J. van Nijnatten et al. (2022). &quot;High miR203a-3p and miR-375 expression in the airways of smokers with and without COPD&quot; <i>(Scientific Reports)</i>.'
 ---
 **Abstract**:
