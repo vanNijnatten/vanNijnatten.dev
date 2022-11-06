@@ -6,7 +6,7 @@ excerpt: ''
 date: 2020-09-02
 venue: '(preprint)'
 paperurl: 'https://doi.org/10.1101/2020.08.31.20169946'
-citation: 'H. Aliee. (2020). &quot;Determinants of SARS-CoV-2 receptor gene expression in upper and lower airways&quot; <i>(preprint))</i>.'
+citation: 'H. Aliee et al. (2020). &quot;Determinants of SARS-CoV-2 receptor gene expression in upper and lower airways&quot; <i>(preprint)</i>.'
 ---
 **Abstract**:
 *Background*
@@ -21,4 +21,4 @@ Genes encoding viral receptors and activating protease are increased in the nose
 *Interpretation*
 Genes associated with SARS-CoV-2 viral entry into cells are high in upper airways, but strongly increased in lower airways by smoke exposure. In contrast, ICS decreases ACE2 expression, indicating that inhaled corticosteroids are unlikely to increase the risk for more severe COVID-19 disease.
 
-**Recommended citation**: H. Aliee. (2020). "Determinants of SARS-CoV-2 receptor gene expression in upper and lower airways" <i>(preprint)</i>.
+**Recommended citation**: H. Aliee et al. (2020). "Determinants of SARS-CoV-2 receptor gene expression in upper and lower airways" <i>(preprint)</i>.

@@ -2,11 +2,11 @@
 title: "iFUSE: integrated fusion gene explorer"
 collection: publications
 permalink: /publication/2013-07-01-iFUSE-integrated-fusion-gene-explorer
-excerpt: 'iFUSE (integrated fusion gene explorer), an online visualization tool that provides a fast and informative view of structural variation data.'
+excerpt: ''
 date: 2013-07-01
 venue: 'Bioinformatics'
 paperurl: 'http://www.doi.org/10.1093/bioinformatics/btt252'
-citation: 'S. Hiltemann. (2013). &quot;iFUSE: integrated fusion gene explorer&quot; <i>Bioinformatics</i>. 29(13).'
+citation: 'S. Hiltemann et al. (2013). &quot;iFUSE: integrated fusion gene explorer&quot; <i>Bioinformatics</i>. 12(5610).'
 ---
 **Abstract**:
 *Summary*
@@ -15,4 +15,4 @@ We present iFUSE (integrated fusion gene explorer), an online visualization tool
 *Results*
 We demonstrate the use of iFUSE with case studies from tumour-normal SV detection derived from Complete Genomics whole-genome sequencing results.
 
-**Recommended citation**: S. Hiltemann. (2013). "iFUSE: integrated fusion gene explorer" <i>Bioinformatics</i>. 29(13).
+**Recommended citation**: S. Hiltemann et al. (2013). "iFUSE: integrated fusion gene explorer" <i>Bioinformatics</i>. 12(5610).
