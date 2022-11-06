@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jos van Nijnatten is a Ph.D. candidate inmedical science, using bioinformatics to better understand COPD."
+title: "Ph.D. candidate in medical science, using bioinformatics to better understand COPD."
 excerpt: "About me"
 author_profile: true
 redirect_from: 
