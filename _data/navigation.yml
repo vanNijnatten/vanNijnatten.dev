@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
-
-#  - title: "Talks"
-#    url: /talks/
+  - title: "Blog Posts"
+    url: /year-archive/
 
 #  - title: "Teaching"
 #    url: /teaching/
 
-#  - title: "Blog Posts"
-#    url: /year-archive/
+#  - title: "Talks"
+#    url: /talks/
+
+  - title: "Publications"
+    url: /publications/
 
   - title: "CV"
-    url: /assets/files/Academic_CV.pdf #https://www.linkedin.com/in/jos-van-nijnatten/ # /cv/
+    url: /assets/files/Academic_CV.pdf
