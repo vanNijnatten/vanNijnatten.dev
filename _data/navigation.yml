@@ -12,8 +12,8 @@ main:
 #  - title: "Talks"
 #    url: /talks/
 
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   - title: "CV"
     url: /assets/files/Academic_CV.pdf
