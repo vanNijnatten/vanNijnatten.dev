@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 You can find more from me at:
-
+- [Dev.to](https://dev.to/vannijnatten)
 - [Facebook](https://www.facebook.com/people/Jos-Van-Nijnatten)
 - [GitHub](https://www.GitHub.com/vanNijnatten)
 - [GoodReads](https://goodreads.com/vannijnatten)
@@ -16,6 +16,7 @@ You can find more from me at:
 - [Instagram](https://www.instagram.com/j_vannijnatten/)
 - [LinkedIn](https://www.linkedin.com/in/jos-van-nijnatten)
 - [Mastodon](https://me.dm/@vanNijnatten)
+- [Medium.com](https://medium.com/@VanNijnatten)
 - [NCBI](https://www.ncbi.nlm.nih.gov/pubmed/?term=jos+van+nijnatten)
 - [ORCID](https://orcid.org/0000-0001-5374-0609)
 - [TikTok](https://www.tiktok.com/@vannijnatten)
