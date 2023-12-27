@@ -7,7 +7,7 @@ redirect_from:
   - /socials/
 ---
 
-You can more from me at:
+You can find more from me at:
 
 - [Facebook](https://www.facebook.com/people/Jos-Van-Nijnatten)
 - [GitHub](https://www.GitHub.com/vanNijnatten)
