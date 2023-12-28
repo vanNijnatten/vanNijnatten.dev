@@ -20,6 +20,7 @@ You can find more from me at:
 - [Medium.com](https://medium.com/@VanNijnatten)
 - [NCBI](https://www.ncbi.nlm.nih.gov/pubmed/?term=jos+van+nijnatten)
 - [ORCID](https://orcid.org/0000-0001-5374-0609)
+- [StackOverflow](https://stackoverflow.com/story/vannijnatten)
 - [TikTok](https://www.tiktok.com/@vannijnatten)
 - [Twitter](https://www.twitter.com/J_vanNijnatten)
 - [YouTube](https://www.youtube.com/@J_vanNijnatten)
