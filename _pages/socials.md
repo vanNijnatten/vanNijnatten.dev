@@ -14,6 +14,7 @@ You can find more from me at:
 - [GoodReads](https://goodreads.com/vannijnatten)
 - [Google Scholar](https://scholar.google.com/citations?user=SPgamzIAAAAJ)
 - [Instagram](https://www.instagram.com/j_vannijnatten/)
+- [Kaggle](https://www.kaggle.com/vannijnatten)
 - [LinkedIn](https://www.linkedin.com/in/jos-van-nijnatten)
 - [Mastodon](https://me.dm/@vanNijnatten)
 - [Medium.com](https://medium.com/@VanNijnatten)
@@ -22,3 +23,10 @@ You can find more from me at:
 - [TikTok](https://www.tiktok.com/@vannijnatten)
 - [Twitter](https://www.twitter.com/J_vanNijnatten)
 - [YouTube](https://www.youtube.com/@J_vanNijnatten)
+
+<!--
+codeWars
+hackerRank
+leetCode
+projectEuler
+-->
