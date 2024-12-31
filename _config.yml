@@ -20,32 +20,6 @@ words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
-  transforms:
-    email                : "md5"
-  generatedFields:
-    date:
-      type               : "date"
-      options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -69,13 +43,6 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-
-
-# Analytics
-analytics:
-  provider               :  # "google-universal" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          :
 
 
 # Site Author
@@ -103,7 +70,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   mastodon         : #"https://me.dm/@vanNijnatten"
   lastfm           :
-  linkedin         : #"jos-van-nijnatten"
+  linkedin         : "jos-van-nijnatten"
   orcid            : #"https://orcid.org/0000-0001-5374-0609"
   pinterest        :
   soundcloud       :
@@ -176,6 +143,9 @@ kramdown:
 
 # Collections
 collections:
+  posts_hidden:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
@@ -200,9 +170,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+  # _posts_hidden
+  - scope:
+      path: ""
+      type: posts_hidden
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
   # _pages
   - scope:
       path: ""
@@ -217,8 +192,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -226,8 +199,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
@@ -235,8 +206,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -244,7 +213,6 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
