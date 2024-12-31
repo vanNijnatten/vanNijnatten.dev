@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GPG signature of commits in GitHub"
+title:  "SQL in iPython in VS Code"
 date:   2024-12-31 10:00:00 +0100
 categories: ipython sql vscode
 tags:   iPython SQL vsCode
