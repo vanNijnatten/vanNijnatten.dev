@@ -5,7 +5,7 @@ date:   2021-09-23 23:59:00 +0100
 categories: github git gpg bash
 tags:   GitHub git gpg
 ---
-GitHub is a web-based version-control and collaboration platform for software developers. I use it all the time to version the soruce code of my PhD project. The GRIAC and RBMB bioinformatical groups both have a github page setup as well, even though we don't use it very much. But if we were to work together even more, we should be able to trust the commits we make to our collaborative repositories. For that reason, GitHub had instroduced signed commits. Below is a script to make a GPG signature and to add this to your local Git configuration to automatically sign your commits. 
+GitHub is a web-based version-control and collaboration platform for software developers. I use it all the time to version the source code of my PhD project. The GRIAC and RBMB bioinformatical groups both have a github page setup as well, even though we don't use it very much. But if we were to work together even more, we should be able to trust the commits we make to our collaborative repositories. For that reason, GitHub had introduced signed commits. Below is a script to make a GPG signature and to add this to your local Git configuration to automatically sign your commits. 
 <!--more-->
 
 ## Mac / Linux

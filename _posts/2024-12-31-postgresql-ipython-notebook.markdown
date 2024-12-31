@@ -5,9 +5,9 @@ date:   2024-12-31 10:00:00 +0100
 categories: ipython sql vscode
 tags:   iPython SQL vsCode
 ---
-Yesterday, during working hours, I was studying for a data engineering certifation, which I need to know in my new role.
+Yesterday, during working hours, I was studying for a data engineering certification, which I need to know in my new role.
 To practice anything in this course, I wanted to practice - however not on the company server. It is possible to set up a data engineering platform on cloud services such as Azure, however I do not have the money to invest in something like that, nor do I want to use the bulky Jupyter notebooks.
-So, I needed a solution to this problem. I needed to set a platform like databricks on my own computer. I wanted to use python in notebooks, but also be able to use SQL in the same notebook, without using Jupyter, Datalore, Collab, or other cloud or bulky software. This post describes that attempt on a macbook.
+So, I needed a solution to this problem. I needed to set a platform like databricks on my own computer. I wanted to use python in notebooks, but also be able to use SQL in the same notebook, without using Jupyter, Datalore, Collab, or other cloud or bulky software. This post describes that attempt on a MacBook.
 
 <!--more-->
 ## Setting up a project in VS Code
