@@ -4,7 +4,8 @@ main:
     url: /year-archive/
 
   - title: "Notes"
-    url: https://publish.obsidian.md/vannijnatten/
+    url: https://notes.vannijnatten.dev
+    # url: https://publish.obsidian.md/vannijnatten/
 
 #  - title: "Teaching"
 #    url: /teaching/
