@@ -143,4 +143,4 @@ WINDOW w AS (PARTITION BY model ORDER BY year)
 ORDER BY model, rank;
 ```
 
-For me, this works and is very lightweight, in my favorite IDE (and in an environment in Python, so a clean setup).
+For me, this works and is very lightweight, in my favorite IDE (and in an environment in Python, so a clean setup). If I wanted to make things easier, I would just have used [Marimo](https://marimo.io/) with [SQL](https://docs.marimo.io/guides/working_with_data/sql) and no IDE.
