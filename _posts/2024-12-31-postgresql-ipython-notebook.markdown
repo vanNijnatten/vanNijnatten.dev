@@ -66,6 +66,8 @@ ln -s /usr/local/Cellar/libpq/17.2/lib/libpq.5.dylib /usr/local/lib/libpq.5.dyli
 ## Setting up a database
 Lets set up a database
 ```bash
+service postgresql start # ubuntu
+sudo -u postgres -i # ubuntu
 psql postgres
 ```
 
